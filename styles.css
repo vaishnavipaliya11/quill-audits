@@ -155,6 +155,30 @@
   background-color: transparent;
   color: var(--text-clr);
 }
+
+/* As mentioned features */
+.featured-options-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.features-logo {
+  max-width: 70%;
+}
+.feat-block {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 15px #00000029;
+  border: 1px solid #2d83ee;
+  border-radius: 15px;
+  opacity: 1;
+  margin: 2rem;
+}
+.feat-block button{
+  color: var(--secondary-clr);
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
 @media only screen and (max-width: 700px) {
   html {
     font-size: 80%;
