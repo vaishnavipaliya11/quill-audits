@@ -173,11 +173,67 @@
   opacity: 1;
   margin: 2rem;
 }
-.feat-block button{
+.feat-block button {
   color: var(--secondary-clr);
   background-color: transparent;
   border: none;
   font-weight: 600;
+}
+
+/* testmonials */
+.read-more-btn {
+  background: transparent
+    linear-gradient(254deg, #7184fd 0%, #3f7af0 70%, #4f37ee 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 8px 10px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  border: none;
+  text-align: center;
+  color: var(--text-clr);
+  padding: 0.5rem 1rem;
+}
+.stackOS-block p {
+  text-align: center;
+}
+.stackOS-block div p:nth-child(1) {
+  font-weight: 700;
+}
+
+/* faq container */
+.FAQ-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 60%;
+  margin: auto;
+}
+.que-block div:nth-child(1) {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 32px 64px #3914000A;
+  border: 1px solid var(--secondary-clr);
+  border-radius: 6px 6px 0px 0px;
+  opacity: 1;
+  padding: 1rem 1.5rem;
+}
+.que-block div:nth-child(2) {
+  border: 1px solid var(--secondary-clr);
+  opacity: 1;
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+.que-block div:nth-child(3) {
+  border: 1px solid var(--secondary-clr);
+  opacity: 1;
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+.que-block div:nth-child(4){
+  border: 1px solid var(--secondary-clr);
+  border-radius: 0px 0px 6px 6px;
+  opacity: 1;
+  padding: 1rem 1.5rem;
+  width: 100%;
 }
 @media only screen and (max-width: 700px) {
   html {
