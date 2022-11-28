@@ -116,20 +116,44 @@
   opacity: 0.8;
   color: var(--text-clr);
 }
-
 .portfolio-btn {
-
   box-shadow: 3px 3px 6px #00000029;
   border-radius: 15px;
   opacity: 1;
   border: none;
   padding: 0.5rem;
 }
-.portfolio-btn:nth-child(1){
+.portfolio-btn:nth-child(1) {
   background: #2d83ee 0% 0% no-repeat padding-box;
 }
-.portfolio-btn-container{
+.portfolio-btn-container {
   min-width: 30%;
+}
+/* reports block */
+.report-btn button {
+  background-color: transparent;
+  border: 1px solid #ffffff4b;
+  color: var(--text-clr);
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-size: 14px;
+}
+.report-btn button:nth-child(1) {
+  padding: 0.5rem 1.8rem;
+}
+.report-btn button:nth-child(2) {
+  padding: 0.5rem 2rem;
+}
+.stock-reports-conatiner img {
+  max-width: 70%;
+}
+.report-down-btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #ffffff4b;
+  border-radius: 6px;
+  opacity: 1;
+  background-color: transparent;
+  color: var(--text-clr);
 }
 @media only screen and (max-width: 700px) {
   html {
