@@ -178,19 +178,14 @@
 }
 
 /* As mentioned features */
-
+.features-logo-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .logo-image{
   max-width: 15rem;
 }
-.featured-options-container {
 
-  /* grid-template-rows: 1fr 1fr; */
-}
-
-.features-logo-block{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1fr,290px));
-}
 .features-logo {
   max-width: 70%;
 }

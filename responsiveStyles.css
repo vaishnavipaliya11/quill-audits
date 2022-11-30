@@ -16,7 +16,10 @@
   .layout-sub-container lottie-player {
     max-width: 300px;
   }
-
+  .features-logo-block{
+    display: flex;
+    flex-direction: column;
+  }
   
   /* blockchain-container */
   .blockchain-container {
