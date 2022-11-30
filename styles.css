@@ -103,16 +103,16 @@
   align-items: flex-start;
 }
 
-.lottie-image{
+.lottie-image {
   max-width: 30rem;
 }
-.blockchain-container{
+.blockchain-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   gap: 2rem;
 }
-.blockchain-container lottie-player{
+.blockchain-container lottie-player {
   max-width: 20rem;
 }
 
@@ -145,7 +145,7 @@
 .portfolio-btn-container {
   min-width: 30%;
 }
-.portfolio-container button{
+.portfolio-container button {
   background: none;
   border: 1px solid var(--text-clr);
   color: var(--text-clr);
@@ -178,11 +178,11 @@
 }
 
 /* As mentioned features */
-.features-logo-block{
+.features-logo-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.logo-image{
+.logo-image {
   max-width: 15rem;
 }
 
@@ -336,4 +336,3 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
-
