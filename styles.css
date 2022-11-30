@@ -79,7 +79,7 @@
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
   opacity: 1;
-  border: 1px solid var(--primary-clr);
+  border: 1px solid var(--text-clr);
   color: var(--text-clr);
 }
 .description {
@@ -103,6 +103,19 @@
   align-items: flex-start;
 }
 
+.lottie-image{
+  max-width: 30rem;
+}
+.blockchain-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.blockchain-container lottie-player{
+  max-width: 20rem;
+}
+
 /* web secure block */
 .sec-grp-img {
   max-width: 80%;
@@ -124,13 +137,18 @@
   border-radius: 15px;
   opacity: 1;
   border: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 .portfolio-btn:nth-child(1) {
   background: #2d83ee 0% 0% no-repeat padding-box;
 }
 .portfolio-btn-container {
   min-width: 30%;
+}
+.portfolio-container button{
+  background: none;
+  border: 1px solid var(--text-clr);
+  color: var(--text-clr);
 }
 /* reports block */
 .report-btn button {
@@ -160,6 +178,13 @@
 }
 
 /* As mentioned features */
+.features-logo-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.logo-image{
+  max-width: 15rem;
+}
 .featured-options-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -175,6 +200,9 @@
   border-radius: 15px;
   opacity: 1;
   margin: 2rem;
+  max-width: 20rem;
+  justify-content: space-between;
+  align-items: center;
 }
 .feat-block button {
   color: var(--secondary-clr);
@@ -292,6 +320,7 @@
   background: #28293e 0% 0% no-repeat padding-box;
   opacity: 1;
   color: var(--text-clr);
+  padding: 2rem;
 }
 .footer-container {
   display: grid;
