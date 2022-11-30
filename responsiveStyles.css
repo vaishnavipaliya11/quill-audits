@@ -3,20 +3,21 @@
     font-size: 80%;
   }
 
-  .layout-container{
+  .layout-container {
     display: flex;
     flex-direction: column;
     min-height: 72vh;
   }
 
-  .layout-sub-container{
+  .layout-sub-container {
     display: flex;
     flex-direction: column-reverse;
   }
-  .layout-sub-container lottie-player{
+  .layout-sub-container lottie-player {
     max-width: 300px;
   }
 
+  
   /* blockchain-container */
   .blockchain-container {
     gap: 0;
@@ -45,20 +46,20 @@
     gap: 0;
     justify-content: space-between;
   }
-  .FAQ-container div{
+  .FAQ-container div {
     margin-top: 1rem;
   }
 
   /* option-block */
-  .option-block span{
+  .option-block span {
     margin: 0;
   }
-/* news-container */
-.news-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  /* news-container */
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .report-btn button:nth-child(1) {
     padding: 5px 10px;
   }
@@ -68,16 +69,16 @@
   .nav-list-items {
     display: none;
   }
-/* portfolio-container */
-.portfolio-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 60vh;
-}
-.portfolio-btn{
-  margin: 0.5em;
-}
+  /* portfolio-container */
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 60vh;
+  }
+  .portfolio-btn {
+    margin: 0.5em;
+  }
   .news-container-single-block {
     max-width: 100%;
   }
@@ -86,11 +87,11 @@
   }
 
   /* join-hands-container */
-  .join-hands-container{
+  .join-hands-container {
     max-width: 80%;
   }
   /* footer */
-  .footer-container{
+  .footer-container {
     display: flex;
     flex-direction: column;
   }
